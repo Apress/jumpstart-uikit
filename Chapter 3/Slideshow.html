@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello UIkit!</title>
+    <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+  </head>
+  <body>
+  
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+    <ul class="uk-slideshow-items">
+        <li>
+            <img src="images/New-York.jpg" alt="New York" uk-cover>
+        </li>
+        <li>
+            <img src="images/Chicago.jpg" alt="Chicago" uk-cover>
+        </li>
+        <li>
+            <img src="images/London.jpg" alt="London" uk-cover>
+        </li>
+		 <li>
+            <img src="images/Madrid.jpg" alt="Madrid" uk-cover>
+        </li>
+		 <li>
+            <img src="images/Paris.jpg" alt="Paris" uk-cover>
+        </li>
+    </ul>
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-large" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-large" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+</div>
+  </body>
+</html>

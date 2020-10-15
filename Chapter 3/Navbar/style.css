@@ -1,0 +1,35 @@
+.nav-none{
+    display: none;
+}
+#nav_toggle{
+    position: absolute;
+    right: 1em;
+    top: 2em;
+}
+.h123{
+    height: 35px;
+    min-height: 35px;
+}
+.logo{ width: 100px; }
+
+@media screen and (max-width:600px){
+    .uk-navbar-left{
+        display: block;
+        width: 100%;
+    }
+    .uk-navbar-item{ display: inline; }
+    
+    .uk-navbar-nav{ display:block; }
+    .navbar-collapse{ width:100%; }
+    .uk-navbar-nav li{
+        display: block;
+        padding: 12px;
+        height: 45px;
+        border-bottom: 5px solid WhiteSmoke;
+    }
+    .uk-navbar-nav li a{
+        display: block;
+        width: 75%;
+        padding: 1rem 1rem;
+    }
+}
