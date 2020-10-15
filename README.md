@@ -1,6 +1,6 @@
 # Apress Source Code
 
-This repository accompanies [*Jumpstart UIKit*](http://www.apress.com/9781484260289) by %author% (Apress, 2020).
+This repository accompanies [*Jumpstart UIKit*](http://www.apress.com/9781484260289) by Aravind Shenoy (Apress, 2020).
 
 [comment]: #cover
 ![Cover image](9781484260289.jpg)
